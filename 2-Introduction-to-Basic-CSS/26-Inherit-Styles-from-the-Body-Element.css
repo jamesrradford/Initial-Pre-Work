@@ -1,0 +1,15 @@
+/* Created html h1 and placed text, used style box to change color and font-family */
+
+<style>
+  body {
+    background-color: black;
+    color:green;
+    font-family:monospace;
+  }
+
+</style>
+
+<!DOCTYPE html>
+<html>
+  <h1>Hello World</h1>
+</html>

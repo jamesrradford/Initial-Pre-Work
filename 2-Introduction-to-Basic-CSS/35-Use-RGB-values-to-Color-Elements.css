@@ -1,0 +1,7 @@
+/* using the standard RGB to select a color, valued between 0 min and 255 max */
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
