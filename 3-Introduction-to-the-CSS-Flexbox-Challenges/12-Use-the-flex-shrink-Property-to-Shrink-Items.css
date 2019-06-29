@@ -1,4 +1,4 @@
-/* Use flex-shrink to shrink items compared with other items size. In this example box-2 will shrink 2x the size of box-1. */ 
+/* Use flex-shrink to shrink items compared with other items size. In this example box-2 will shrink 2x the size of box-1. */  
 
 <style>
   #box-container {

@@ -1,4 +1,4 @@
-/* Use flex-grow to increase item size according to related items. In this example box-2 will be 2x bigger than box-1. */
+/* Use flex-grow to increase item size according to related items. In this example box-2 will be 2x bigger than box-1. */ 
 
 <style>
   #box-container {
