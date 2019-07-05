@@ -1,0 +1,12 @@
+// Use a do while loop. Do loop will run a code once no matter the condition then while will run until a false return.
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+
+do {
+  myArray.push(i);
+  i++;
+} while(i <= 10);
