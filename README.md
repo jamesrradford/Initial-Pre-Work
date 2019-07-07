@@ -4,36 +4,40 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+When a URL is placed in the browser by click or text input the browser searches for the IP address under the domain provided. Then HTTP is transferred between the server and requestor. 
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-put your answer here
+Once the HTTP signal is processed the browser begins rendering HTML. Once HTML is rendered the browser requests more rendering for objects embedded in the HTML, such as JavaScript, CSS, or images. Then repeats the first three steps over again. Once loaded the browser will send sync requests as needed.
 
 ## What code is rendered in the browser?
 
-put your answer here
+The Browser renders HTML, JavaScript, CSS, and images into an interface page for the user. The code is used to define the output of colors, shapes, design, media, size, and text.   
 
 ## What is the server-side code’s main function?
 
-put your answer here
+Server-side code is implemented to provide an interface for the user, limit access to crucial data and control script source coding.
 
 ## What is the client-side code’s main function?
 
-put your answer here
+Client-side code is the front end code, what is implemented by the user's browser and interactive through the browser.
 
 ## What is runtime?
 
-put your answer here
-
+Runtime is the instruction or code that is executed while a program runs. The larger a file the more runtime, the smaller the less runtime.
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+One instance is created per user visiting. The number of instances then equals the amount of users accessing the page.
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+There can be multiple instances for server-sided code. Typically there is one or two instances, for development and testing/production.
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+There would be 1 instance per user on the database.
+
+Resources:
+
+Vincent, W. S. (November 29, 2017). William Vincent. Retrieved from https://wsvincent.com/what-happens-when-url/
+Code Conquest (2019). Retrieved from https://www.codeconquest.com/website/client-side-vs-server-side/
